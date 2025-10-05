@@ -1,11 +1,11 @@
 # Overview
 ## Kepler-TESS Dataset
 It's a combined dataset, based on shared features, that contains both samples from Kepler and TESS (NASA Archives).
-No additional work on dataset wasn't done. 
+No additional work on dataset was done. 
 
 Train-test ratio is 5:1
 ## Algorithms
-At the end, I use ensemble (baggin) of two algorithms: XGB and Gradient Boosting Classifier.
+At the end, I use ensemble (bagginп) of two algorithms: XGB and Gradient Boosting Classifier.
 Tuned using Grid Search.
 
 # Result
