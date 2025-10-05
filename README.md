@@ -1,10 +1,13 @@
-# NASA-Hackathon-2025
-Code accompanied by datasets.
+# Overview
+## Kepler-TESS Dataset
+It's a combined dataset, based on shared features, that contains both samples from Kepler and TESS (NASA Archives).
+No additional work on dataset wasn't done. 
 
-## Test Model
-Simple neural network 4-layer architecture, with 50% dropouts & batch normalization.
-1024 units wide.
+Train-test ratio is 5:1
+## Algorithms
+At the end, I use ensemble (baggin) of two algorithms: XGB and Gradient Boosting Classifier.
+Tuned using Grid Search.
 
-<img width="547" height="435" alt="image" src="https://github.com/user-attachments/assets/bee596cf-d0b3-40bf-8efa-fb8e2260c7aa" />
+# Result
 
-<img width="556" height="435" alt="image" src="https://github.com/user-attachments/assets/f4bbad04-82d7-48bc-88bb-35d4af73ad6a" />
+<img width="640" height="220" alt="image" src="https://github.com/user-attachments/assets/2d39a3ae-a6cb-4d81-a230-7f12265eddd4" />
